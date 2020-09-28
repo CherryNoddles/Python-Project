@@ -12,25 +12,25 @@ tracker = 0
 ​
 while tracker !=1:
   
-  print("Q"+str(counter)+") "+ "What is 12 + 2?")
-  print("   a) 10")
-  print("   b) 24")
-  print("   c) 14")
-  print("   d) 6")
+  print("Q"+str(counter)+") "+ "Which European power got control over Malacca in 1511?")
+  print("   a) British")
+  print("   b) Spanish")
+  print("   c) Portugese")
+  print("   d) Dutch")
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Wrong. This is not subtraction."
+    output = "Wrong. The British took control over Singapore in 1819."
     score -=1
   elif answer == "b":
-    output = "Wrong. This is not multiplication."
+    output = "Wrong. Spain was not a European power in Southeast Asia during that time.."
     score -=1
   elif answer == "c":
     output = "Yes, that's right!"
     tracker =1
     score +=1
   elif answer == "d":
-    output = "Wrong. This is not division."
+    output = "Wrong. The Dutch wrestled Malacca from the Portugese in 1641."
     score -=1
   else:
     output = "Please choose a, b, c or d only."

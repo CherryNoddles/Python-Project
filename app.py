@@ -23,6 +23,9 @@ while True:
     if each_word == "tired":
       feelings_list.append("tired")
       encouragement_list.append("you are stronger than you think")
+    if each_word == "stressed":
+      feelings_list.append("stressed")
+      encouragement_list.append("you will get through this")
       counter += 1
 ​
   if counter == 0:

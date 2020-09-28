@@ -23,7 +23,7 @@ while tracker !=1:
     output = "Wrong. The British took control over Singapore in 1819."
     score -=1
   elif answer == "b":
-    output = "Wrong. Spain was not a European power in Southeast Asia during that time.."
+    output = "Wrong. Spain was not a European power in Southeast Asia during that time."
     score -=1
   elif answer == "c":
     output = "Yes, that's right!"
@@ -49,26 +49,26 @@ tracker = 0
 ​
 while tracker !=1:
   
-  print("Q"+str(counter)+") "+ "The chemical formula H2 represents")
-  print("   a) one hydrogen molecule")
-  print("   b) two hydrogen atoms")
-  print("   c) one hydrogen atom")
-  print("   d) two hydrogen molecules")
+  print("Q"+str(counter)+") "+ "以下哪一个不是一种修辞手法？")
+  print("   a) 肖像描写")
+  print("   b) 排比句")
+  print("   c) 夸张")
+  print("   d) 比喻")
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Yes, that's right!"
+    output = "你答对了！"
     tracker =1
     score +=1
   elif answer == "b":
-    output = "Wrong. If so, then it will be written as H and H - two hydrogen atoms."
+    output = "错。排比句是一种修辞手法。"
     score -=1
   elif answer == "c":
-    output = "Wrong. Clearly the number 2 in the formulae must mean something?"
+    output = "错。夸张是一种修辞手法。"
     score -=1
     
   elif answer == "d":
-    output = "Wrong. What's the difference between a molecule and an atom?"
+    output = "错。夸张是一种修辞手法。"
     score -=1
   else:
     output = "Please choose a, b, c or d only."
